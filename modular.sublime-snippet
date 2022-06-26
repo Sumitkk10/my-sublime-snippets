@@ -1,15 +1,15 @@
 <snippet>
 	<content><![CDATA[
-ll ad(ll a, ll b){
+int ad(int a, int b){
     return((a % MOD + b % MOD) % MOD);
 }
-ll sub(ll a, ll b){
+int sub(int a, int b){
     return((a % MOD - b % MOD + MOD) % MOD);
 }
-ll mul(ll a, ll b){
+int mul(int a, int b){
     return(((a % MOD) * (b % MOD)) % MOD);
 }
-ll divi(ll a, ll b){
+int divi(int a, int b){
     return(mul(a, power(b, MOD - 2)) % MOD);
 }
 ]]></content>
