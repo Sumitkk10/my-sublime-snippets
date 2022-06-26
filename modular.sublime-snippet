@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-int ad(int a, int b){
+int add(int a, int b){
     return((a % MOD + b % MOD) % MOD);
 }
 int sub(int a, int b){
